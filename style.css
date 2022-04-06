@@ -127,8 +127,14 @@ body{
 }
 
 .projects{
-    background-color: aquamarine;
-    grid-area:4/3/14/11
+    background-color: azure;
+    grid-area:4/3/14/11;
+    display:grid;
+    grid-template: 1fr 1fr 5fr 1fr 5fr 1fr 5fr 1fr / 1fr 5fr 1fr 5fr 1fr;
+}
+#prjheader{
+    grid-area: 2/2/3/3;
+    font-size: 1.3rem;
 }
 
 .announce{
