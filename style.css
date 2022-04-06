@@ -161,6 +161,7 @@ body{
     grid-area: 7/4/8/5;
 }
 
+
 .announce{
     background-color: white;
     grid-area:4/11/10/14;
@@ -181,9 +182,8 @@ body{
     display: grid;
     grid-template: repeat(3, 1fr)/1fr;
     box-shadow: 1px 1px 2px gray;
-}
-.ann{
-    /* overflow: hidden; */
+    overflow-x:hidden;
+    overflow-y: scroll;
 }
 .ann p{
     font-size: 0.8rem;
@@ -198,7 +198,24 @@ body{
     grid-area: 5/2/6/3;
 }
 
+
 .trending{
-    background-color: white;
+    background-color: azure;
     grid-area:10/11/14/14;
+    display:grid;
+    grid-template: repeat(5, 1fr)/1fr 10fr 1fr;
+}
+.trendhead{
+    grid-area:1/2/2/3;
+    font-weight: bold;
+}
+.trendbody{
+    grid-area:2/2/5/3;
+    background-color: white;
+    border-radius: 5%;
+    box-shadow: 1px 1px 2px gray;
+    display:grid;
+    grid-template:repeat(4, 1fr) / 1fr;
+    padding:0.7rem;
+    overflow-y:scroll;
 }
