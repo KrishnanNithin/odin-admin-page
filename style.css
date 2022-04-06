@@ -136,7 +136,31 @@ body{
     grid-area: 2/2/3/3;
     font-size: 1.3rem;
 }
+.prj{
+    background-color: white;
+    border-radius: 3%;
+    box-shadow: -8px 0px 1px gold;
+    padding: 2%;
+}
 
+#prj1{
+    grid-area: 3/2/4/3;
+}
+#prj2{
+    grid-area: 3/4/4/5;
+}
+#prj3{
+    grid-area: 5/2/6/3;
+}
+#prj4{
+    grid-area: 5/4/6/5;
+}
+#prj5{
+    grid-area: 7/2/8/3;
+}
+#prj6{
+    grid-area: 7/4/8/5;
+}
 .announce{
     background-color: white;
     grid-area:4/11/9/14;
